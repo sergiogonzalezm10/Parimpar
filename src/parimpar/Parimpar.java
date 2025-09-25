@@ -6,7 +6,7 @@ public class Parimpar {
 
 	public static void main(String[] args) {
 		int numero;											//Variable que almacena el número introducido posteriormente
-		boolean par = false;								//Variable que comprueba si el número es par
+		boolean par;								//Variable que comprueba si el número es par
 		
 		Scanner sc = new Scanner(System.in);				//Lee lo que introduzcamos
 		System.out.println("Introduzca un número: ");		//Nos indica que escribamos el número
